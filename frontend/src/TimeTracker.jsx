@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 
 // ─── Config ───────────────────────────────────────────────────────────────────
-const API = "http://localhost:3001/api/data";
+const API = import.meta.env.VITE_API_URL;
 
 // ─── Palette ──────────────────────────────────────────────────────────────────
 const STUDY_COLOR = "#6EE7B7";
